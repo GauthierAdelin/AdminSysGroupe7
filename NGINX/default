@@ -4,7 +4,7 @@ server {
 
 
         server_name 51.77.203.5;
-        return 301 https://www.wt7.ephec-ti.be$request_uri;
+        return 301 https://www.gauthier.ephec-ti.be$request_uri;
 }
 
 server {
@@ -13,5 +13,5 @@ server {
 
 
         server_name [2001:41d0:404:200::12e6];
-        return 301 https://www.wt7.ephec-ti.be$request_uri;
+        return 301 https://www.gauthier.ephec-ti.be$request_uri;
 }
